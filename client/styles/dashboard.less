@@ -1,0 +1,62 @@
+.dashboard {
+  margin: 0;
+  border-top: 1px solid #444;
+  position: relative;
+
+  .dashboard-nav {
+    background: #eeeeee;
+    margin: 0;
+
+    .nav-pills li {
+      text-align: center;
+    }
+
+    .nav-pills {
+      padding: 0;
+      background: #eee;
+    }
+    .nav-pills > li > a {
+      border-radius: 0;
+      color: #000;
+    }
+    .nav-pills > li > a:hover {
+      background: #81d4fa;
+    }
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+      background: #81d4fa;
+      border-right: 4px solid #00FF00;
+    }
+
+    .col-md-1 {
+      width: 10%;
+      padding: 0;
+    }
+    .col-md-10 {
+      width: 90%;
+      padding: 0;
+    }
+  }
+
+  .tab-title-container {
+    .tab-title {
+      margin: 12px 50px;
+      text-align: left;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .tab-subtitle {
+      margin: 12px 50px;
+      text-align: left;
+    }
+  }
+  .tab-content {
+    background: #fff;
+    min-height: 1160px;
+    padding: 0;
+  }
+  .col-md-10 {
+    .tab-content {
+      padding-top: 1px;
+    }
+  }
+}
